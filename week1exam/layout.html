@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<script type="text/javascript">
+ function iiitfun(){
+ 	  var x = document.getElementById("iiit");
+ 	  var y = document.getElementById("jntuhdiv");
+ 	  var z = document.getElementById("jntukdiv");
+ 	  var w = document.getElementById("svudiv");
+    w.style.display = "none"
+    x.style.display = "block";
+
+    y.style.display = "none"
+    z.style.display = "none";
+
+ }
+ function jntuhfun(){
+ 	  var x = document.getElementById("iiit");
+ 	  var y = document.getElementById("jntuhdiv");
+ 	  var z = document.getElementById("jntukdiv");
+ 	  var w = document.getElementById("svudiv");
+    w.style.display = "none"
+    y.style.display = "block";
+
+    x.style.display = "none"
+    z.style.display = "none";
+
+ }
+function jntukfun(){
+ 	  var x = document.getElementById("iiit");
+ 	  var y = document.getElementById("jntuhdiv");
+ 	  var z = document.getElementById("jntukdiv");
+ 	  var w = document.getElementById("svudiv");
+    w.style.display = "none"
+    z.style.display = "block";
+
+    x.style.display = "none"
+    y.style.display = "none";
+
+ }
+
+ function svufun(){
+ 	  var x = document.getElementById("iiit");
+ 	  var y = document.getElementById("jntuhdiv");
+ 	  var z = document.getElementById("jntukdiv");
+ 	  var w = document.getElementById("svudiv");
+    y.style.display = "none"
+    w.style.display = "block";
+
+    x.style.display = "none"
+    z.style.display = "none";
+
+ }
+
+</script>
+
+	<meta charset="utf-8">
+        <link href = "Style.css" rel = "Stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<title>layout</title>
+</head>
+<body>
+	<br>
+      <br>
+	<div class="container text-center">
+  <div class="row content">
+    <div class="col-sm-3 well">
+      <div class="well">
+        <img src="msitlogo.jpg" class="img-circle" height="90" width="90" alt="Avatar">
+      </div>
+      <br>
+      <br>
+      <div class="alert">
+        <p><strong>List of specializations</strong></p>
+        <ol>
+        <li>ML</li>
+        <li>Data Science</li>
+        <li>Block Chain</li>
+        <li>Dev Ops</li>
+        <li>IS </li>
+    </ol>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+<br>
+<br>
+    </div>
+</div>
+      <div class="container text-center">
+    	<div class="col-sm-8 well">
+
+      <div class="row">
+        <div class="col-sm-12 well">
+
+              <h4>MSIT Learning Centers</h4>
+               <div class="col-sm-3">
+              <img onclick="jntuhfun()"src="jntuh.jpg" class="img-circle" left height="70" width="70" alt="Avatar">
+              </div>
+              <div class="col-sm-3">
+              <img onclick="iiitfun()"  src="iiitlogo.jpg" class="img-circle" height="65" width="65" alt="IIITLOGO">
+              </div>
+              <div class="col-sm-3">
+              <img onclick="jntukfun()"src="jntuk.png" class="img-circle"height="70" width="70" alt="jntuk">
+              </div>
+              <div class="col-sm-3">
+              <img onclick="svufun()"src="svu.png" class="img-circle" height="70" width="70" alt="svu">
+          </div>
+            </div>
+          </div>
+          <div class="row">
+        <div id="jntuhdiv" class="col-sm-12 well" style="display: none">
+        	<h3>Students Intake in Last 5 years JNTU-H</h3>
+        	  <table class="table table-bordered">
+        	  	<thead>
+                    <tr>
+                        <th class = "text-center" style="padding-right:80px" >Year</th>
+                        <th class = "text-center" style="padding-right:80px" >No. Students</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th class = "text-center" style="padding-right:80px">2019</th>
+                        <th class = "text-center" style="padding-right:80px">88</th>
+                    </tr>
+                    <tr><th class = "text-center" style="padding-right:80px">2018</th>
+                    	<th class = "text-center" style="padding-right:80px">95</th>
+
+                    </tr>
+                        <tr>
+                        	<th class = "text-center" style="padding-right:80px">2017</th>
+                        	<th class = "text-center" style="padding-right:80px">61</th>
+                        </tr>
+                        <tr>
+                        <th class = "text-center" style="padding-right:80px">2016</th>
+                         <th class = "text-center" style="padding-right:80px">87</th>
+                    </tr>
+                    <tr>
+                        <th class = "text-center" style="padding-right:80px">2015</th>
+                        <th class = "text-center" style="padding-right:80px">79</th>
+                    </tr>
+                    </tbody>
+                </table>
+        </div>
+
+<div id="jntukdiv" class="col-sm-12 well" style="display: none">
+        	<h3>Students Intake in Last 5 years JNTU-K</h3>
+        	  <table class="table table-bordered">
+        	  	<thead>
+                    <tr>
+                        <th class = "text-center" style="padding-right:80px" >Year</th>
+                        <th class = "text-center" style="padding-right:80px" >No. Students</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th class = "text-center" style="padding-right:80px">2019</th>
+                        <th class = "text-center" style="padding-right:80px">29</th>
+                    </tr>
+                    <tr><th class = "text-center" style="padding-right:80px">2018</th>
+                    	<th class = "text-center" style="padding-right:80px">13</th>
+
+                    </tr>
+                        <tr>
+                        	<th class = "text-center" style="padding-right:80px">2017</th>
+                        	<th class = "text-center" style="padding-right:80px">20</th>
+                        </tr>
+                        <tr>
+                        <th class = "text-center" style="padding-right:80px">2016</th>
+                         <th class = "text-center" style="padding-right:80px">11</th>
+                    </tr>
+                    <tr>
+                        <th class = "text-center" style="padding-right:80px">2015</th>
+                        <th class = "text-center" style="padding-right:80px">9</th>
+                    </tr>
+                    </tbody>
+                </table>
+        </div>
+
+<div id="svudiv" class="col-sm-12 well" style="display: none">
+        	<h3>Students Intake in Last 5 years SVU</h3>
+        	  <table class="table table-bordered">
+        	  	<thead>
+                    <tr>
+                        <th class = "text-center" style="padding-right:80px" >Year</th>
+                        <th class = "text-center" style="padding-right:80px" >No. Students</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th class = "text-center" style="padding-right:80px">2019</th>
+                        <th class = "text-center" style="padding-right:80px">19</th>
+                    </tr>
+                    <tr><th class = "text-center" style="padding-right:80px">2018</th>
+                    	<th class = "text-center" style="padding-right:80px">12</th>
+
+                    </tr>
+                        <tr>
+                        	<th class = "text-center" style="padding-right:80px">2017</th>
+                        	<th class = "text-center" style="padding-right:80px">7</th>
+                        </tr>
+                        <tr>
+                        <th class = "text-center" style="padding-right:80px">2016</th>
+                         <th class = "text-center" style="padding-right:80px">17</th>
+                    </tr>
+                    <tr>
+                        <th class = "text-center" style="padding-right:80px">2015</th>
+                        <th class = "text-center" style="padding-right:80px">23</th>
+                    </tr>
+                    </tbody>
+                </table>
+        </div>
+
+<div id="iiit" class="col-sm-12 well" style="display: block;">
+        	<h3>Students Intake in Last 5 years IIIT-H</h3>
+        	  <table class="table table-bordered">
+        	  	<thead>
+                    <tr>
+                        <th class = "text-center" style="padding-right:80px" >Year</th>
+                        <th class = "text-center" style="padding-right:80px" >No. Students</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th class = "text-center" style="padding-right:80px">2019</th>
+                        <th class = "text-center" style="padding-right:80px">86</th>
+                    </tr>
+                    <tr><th class = "text-center" style="padding-right:80px">2018</th>
+                    	<th class = "text-center" style="padding-right:80px">93</th>
+
+                    </tr>
+                        <tr>
+                        	<th class = "text-center" style="padding-right:80px">2017</th>
+                        	<th class = "text-center" style="padding-right:80px">103</th>
+                        </tr>
+                        <tr>
+                        <th class = "text-center" style="padding-right:80px">2016</th>
+                         <th class = "text-center" style="padding-right:80px">78</th>
+                    </tr>
+                    <tr>
+                        <th class = "text-center" style="padding-right:80px">2015</th>
+                        <th class = "text-center" style="padding-right:80px">89</th>
+                    </tr>
+                    </tbody>
+                </table>
+        </div>
+        </div>
+        </div>
+
+</body>
+</html>
